@@ -52,8 +52,8 @@ from graphrag.index.workflows import (
     WorkflowDefinitions,
     load_workflows,
 )
-from graphrag.logging.base import ProgressReporter
-from graphrag.logging.null_progress import NullProgressReporter
+from graphrag.loggingx.base import ProgressReporter
+from graphrag.loggingx.null_progress import NullProgressReporter
 from graphrag.utils.storage import _create_storage
 
 log = logging.getLogger(__name__)

@@ -29,7 +29,7 @@ from graphrag.index.config.embeddings import (
     community_full_content_embedding,
     entity_description_embedding,
 )
-from graphrag.logging.print_progress import PrintProgressReporter
+from graphrag.loggingx.print_progress import PrintProgressReporter
 from graphrag.query.factories import (
     get_drift_search_engine,
     get_global_search_engine,

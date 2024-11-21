@@ -127,6 +127,7 @@ def try_parse_json_object(input: str) -> tuple[str, dict]:
         input = input[: len(input) - len("```")]
 
     try:
+        print("-----", input)
         result = json.loads(input)
     except json.JSONDecodeError:
         # Fixup potentially malformed json string using json_repair.

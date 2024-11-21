@@ -7,7 +7,7 @@ from typing import Any
 
 from datashaper import ExecutionNode, NoopWorkflowCallbacks, Progress, TableContainer
 
-from graphrag.logging.base import ProgressReporter
+from graphrag.loggingx.base import ProgressReporter
 
 
 class ProgressWorkflowCallbacks(NoopWorkflowCallbacks):

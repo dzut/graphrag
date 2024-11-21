@@ -13,7 +13,7 @@ from graphrag.index.input.load_input import load_input
 from graphrag.index.llm.load_llm import load_llm_embeddings
 from graphrag.index.operations.chunk_text import chunk_text
 from graphrag.llm.types.llm_types import EmbeddingLLM
-from graphrag.logging.base import ProgressReporter
+from graphrag.loggingx.base import ProgressReporter
 from graphrag.prompt_tune.defaults import (
     MIN_CHUNK_OVERLAP,
     MIN_CHUNK_SIZE,

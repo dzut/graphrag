@@ -14,7 +14,7 @@ from graphrag.config.load_config import load_config
 from graphrag.config.models.graph_rag_config import GraphRagConfig
 from graphrag.config.resolve_path import resolve_paths
 from graphrag.index.create_pipeline_config import create_pipeline_config
-from graphrag.logging.print_progress import PrintProgressReporter
+from graphrag.loggingx.print_progress import PrintProgressReporter
 from graphrag.utils.storage import _create_storage, _load_table_from_storage
 
 reporter = PrintProgressReporter("")

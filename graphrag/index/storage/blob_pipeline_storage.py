@@ -14,7 +14,7 @@ from azure.storage.blob import BlobServiceClient
 from datashaper import Progress
 
 from graphrag.index.storage.pipeline_storage import PipelineStorage
-from graphrag.logging.base import ProgressReporter
+from graphrag.loggingx.base import ProgressReporter
 
 log = logging.getLogger(__name__)
 
