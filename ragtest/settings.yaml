@@ -47,10 +47,10 @@ embeddings:
 
 input:
   type: file # or blob
-  file_type: csv # or csv
+  file_type: text # or csv
   base_dir: "input"
   file_encoding: utf-8
-  file_pattern: ".*\\.csv"
+  file_pattern: ".*\\.txt"
 
 chunks:
   size: 300
