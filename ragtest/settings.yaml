@@ -9,7 +9,7 @@ encoding_model: cl100k_base # this needs to be matched to your model!
 llm:
   api_key: ${GRAPHRAG_API_KEY} # set this in the generated .env file
   type: openai_chat # or azure_openai_chat
-  model: qwen2
+  model: mistral
   model_supports_json: true # recommended if this is available for your model.
   # audience: "https://cognitiveservices.azure.com/.default"
   # api_base: https://<instance>.openai.azure.com
@@ -50,7 +50,7 @@ input:
   file_type: text # or csv
   base_dir: "input"
   file_encoding: utf-8
-  file_pattern: ".*\\.txt"
+  file_pattern: ".*\\.txt$"
 
 chunks:
   size: 300
